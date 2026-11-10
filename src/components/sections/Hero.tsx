@@ -60,7 +60,7 @@ const HeroArtwork = ({ reduceMotion }: { reduceMotion: boolean }) => (
     initial={reduceMotion ? false : { opacity: 0, y: 18 }}
     animate={{ opacity: 1, y: 0 }}
     transition={{ duration: reduceMotion ? 0 : 1.1, delay: reduceMotion ? 0 : 0.18, ease: "easeOut" }}
-    className="pointer-events-none absolute left-0 top-[29%] z-0 h-[13vh] w-full text-electric-lime sm:top-[31%] sm:h-[15vh] lg:top-[51vh] lg:h-[25vh]"
+    className="pointer-events-none absolute left-0 top-[20%] z-0 h-[13vh] w-full text-electric-lime sm:top-[23%] sm:h-[15vh] lg:top-[44vh] lg:h-[25vh]"
   >
     <motion.ellipse cx="170" cy="220" rx="165" ry="184" fill="none" stroke="currentColor" strokeWidth="3" initial={reduceMotion ? false : { pathLength: 0 }} animate={{ pathLength: 1 }} transition={{ duration: reduceMotion ? 0 : 1.4, delay: 0.15 }} />
     <motion.ellipse cx="170" cy="220" rx="112" ry="126" fill="none" stroke="currentColor" strokeWidth="3" initial={reduceMotion ? false : { pathLength: 0 }} animate={{ pathLength: 1 }} transition={{ duration: reduceMotion ? 0 : 1.2, delay: 0.3 }} />
@@ -85,7 +85,7 @@ const Hero = () => {
     <section id="hero" className="relative isolate min-h-[100svh] overflow-hidden bg-warm-off-white pt-16 text-charcoal-black">
       <HeroArtwork reduceMotion={shouldReduceMotion} />
 
-      <div className="relative z-10 mx-auto flex min-h-[calc(100svh-4rem)] w-full max-w-[1600px] flex-col px-6 pb-8 pt-12 sm:px-8 lg:min-h-[100svh] lg:justify-between lg:px-12 lg:pb-[8vh] lg:pt-[16vh] lg:pr-[clamp(22rem,25vw,29rem)]">
+      <div className="relative z-10 mx-auto flex w-full max-w-[1600px] flex-col px-6 pb-8 pt-12 sm:px-8 lg:min-h-[100svh] lg:justify-between lg:px-12 lg:pb-[8vh] lg:pt-[16vh] lg:pr-[clamp(22rem,25vw,29rem)]">
         <div>
           <motion.p
             initial={shouldReduceMotion ? false : { opacity: 0, y: 10 }}
