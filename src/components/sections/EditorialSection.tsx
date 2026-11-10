@@ -1,3 +1,4 @@
+import { publicAsset } from "../../lib/publicAsset";
 import { motion } from "framer-motion";
 
 const EditorialSection = () => {
@@ -8,7 +9,7 @@ const EditorialSection = () => {
           <div className="order-2 lg:order-1 relative">
             <div className="aspect-[4/3] border-2 border-warm-off-white/20 bg-warm-off-white/5 overflow-hidden relative">
               <img
-                src="/images/sample-brochure-01.svg"
+                src={publicAsset("images/sample-brochure-01.svg")}
                 alt="Editorial Print Sample"
                 className="w-full h-full object-cover"
                 loading="lazy"

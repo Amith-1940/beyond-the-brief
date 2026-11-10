@@ -1,3 +1,4 @@
+import { publicAsset } from "../../lib/publicAsset";
 const PackagingBanners = () => {
   return (
     <section className="py-24 bg-warm-off-white text-charcoal-black relative overflow-hidden">
@@ -27,7 +28,7 @@ const PackagingBanners = () => {
             </div>
             <div className="aspect-[4/3] border border-charcoal-black overflow-hidden relative">
               <img
-                src="/images/sample-packaging-01.svg"
+                src={publicAsset("images/sample-packaging-01.svg")}
                 alt="Packaging Concept"
                 className="w-full h-full object-cover"
                 loading="lazy"
@@ -47,7 +48,7 @@ const PackagingBanners = () => {
             </div>
             <div className="aspect-[4/3] border border-charcoal-black overflow-hidden relative">
               <img
-                src="/images/sample-banner-01.svg"
+                src={publicAsset("images/sample-banner-01.svg")}
                 alt="Banner Exhibition Concept"
                 className="w-full h-full object-cover"
                 loading="lazy"
