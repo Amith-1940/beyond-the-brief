@@ -46,12 +46,12 @@ const Hero = () => {
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.4, ease: "easeOut" }}
-              className="flex flex-col gap-3 lg:flex-row lg:gap-4"
+              className="flex flex-col gap-3 md:flex-row md:flex-wrap md:gap-3 lg:gap-4"
             >
               <Button
                 variant="primary"
                 size="lg"
-                className="group rounded-none border-2 border-charcoal-black font-semibold text-base"
+                className="group rounded-none border-2 border-charcoal-black font-semibold text-base md:px-4 lg:px-8"
               >
                 Explore Our Work
                 <ArrowRight className="ml-2 w-4 h-4 transition-transform group-hover:translate-x-1" />
@@ -59,7 +59,7 @@ const Hero = () => {
               <Button
                 variant="outline"
                 size="lg"
-                className="rounded-none border-2 font-semibold text-base"
+                className="rounded-none border-2 font-semibold text-base md:px-4 lg:px-8"
               >
                 Let's Talk
               </Button>
