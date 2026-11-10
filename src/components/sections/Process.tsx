@@ -34,15 +34,15 @@ const steps = [
 
 const Process = () => {
   return (
-    <section id="process" className="py-24 bg-warm-off-white relative overflow-hidden">
+    <section id="process" className="py-16 md:py-20 bg-warm-off-white relative overflow-hidden">
       <div className="max-w-7xl mx-auto px-6">
-        <div className="mb-16">
+        <div className="mb-10 md:mb-12">
           <motion.span
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
             viewport={{ once: true }}
-            className="text-xs font-bold tracking-[0.3em] text-charcoal-black/50 mb-4 block uppercase"
+            className="relative mb-4 inline-flex items-center pl-10 text-xs font-bold tracking-[0.3em] text-charcoal-black/50 uppercase after:absolute after:left-0 after:top-1/2 after:h-px after:w-6 after:-translate-y-1/2 after:bg-electric-lime"
           >
             03 / AI + Human Creativity
           </motion.span>
@@ -62,7 +62,7 @@ const Process = () => {
           </motion.h2>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-5 lg:gap-6">
           {steps.map((step, idx) => {
             const Icon = step.icon;
             return (
@@ -72,7 +72,7 @@ const Process = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.7, delay: idx * 0.15 }}
                 viewport={{ once: true }}
-                className="group relative bg-white border-2 border-charcoal-black p-8 flex flex-col justify-between min-h-[320px] transition-all hover:-translate-y-2 hover:shadow-[8px_8px_0px_0px_#111111]"
+                className="group relative bg-white border-2 border-charcoal-black p-6 md:p-7 flex flex-col justify-between min-h-[280px] lg:min-h-[300px] transition-all hover:-translate-y-2 hover:shadow-[8px_8px_0px_0px_#111111]"
               >
                 <div>
                   <div className="flex justify-between items-start mb-6">
