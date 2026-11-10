@@ -147,7 +147,7 @@ const Hero = () => {
           {services.map((service) => (
             <div key={service.kind} className="group flex min-h-[7.5rem] flex-col items-center border-r border-charcoal-black/60 px-1.5 py-3 last:border-r-0 transition-colors duration-300 hover:bg-warm-off-white/20 motion-reduce:transition-none lg:min-h-0 lg:px-1.5 lg:py-5">
               <ServiceIcon kind={service.kind} />
-              <span className="mt-auto max-w-full pt-4 text-center text-[8px] font-bold uppercase leading-tight tracking-[0.08em] sm:text-[9px] lg:[writing-mode:vertical-rl] lg:rotate-180 lg:pt-0 lg:text-[11px] lg:tracking-[0.12em]">
+              <span className="mt-auto max-w-full pt-4 text-center text-[9px] font-bold uppercase leading-tight tracking-[0.08em] sm:text-[10px] lg:[writing-mode:vertical-rl] lg:rotate-180 lg:pt-0 lg:text-[11px] lg:tracking-[0.12em]">
                 {service.label}
               </span>
             </div>
