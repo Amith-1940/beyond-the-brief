@@ -1,13 +1,13 @@
 import { publicAsset } from "../../lib/publicAsset";
 const PackagingBanners = () => {
   return (
-    <section className="py-24 bg-warm-off-white text-charcoal-black relative overflow-hidden">
+    <section className="py-16 md:py-20 bg-warm-off-white text-charcoal-black relative overflow-hidden">
       <div className="max-w-7xl mx-auto px-6">
-        <div className="mb-16">
-          <span className="text-xs font-bold tracking-[0.3em] text-charcoal-black/50 mb-4 block uppercase">
+        <div className="mb-10 md:mb-12">
+          <span className="relative mb-4 inline-flex items-center pl-10 text-xs font-bold tracking-[0.3em] text-charcoal-black/50 uppercase after:absolute after:left-0 after:top-1/2 after:h-px after:w-6 after:-translate-y-1/2 after:bg-electric-lime">
             07 / Packaging & Large-Format
           </span>
-          <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold leading-tight tracking-tight mb-4">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-[1.05] tracking-tight mb-4">
             Made to be seen. Designed to be remembered.
           </h2>
           <p className="text-lg text-charcoal-black/70 max-w-2xl">
@@ -15,8 +15,8 @@ const PackagingBanners = () => {
           </p>
         </div>
 
-        <div className="grid lg:grid-cols-2 gap-12">
-          <div className="bg-white border-2 border-charcoal-black p-8 flex flex-col justify-between">
+        <div className="grid lg:grid-cols-2 gap-8 lg:gap-10">
+          <div className="bg-white border-2 border-charcoal-black p-6 md:p-8 flex flex-col justify-between">
             <div>
               <span className="text-xs font-mono font-bold tracking-widest text-electric-lime bg-charcoal-black px-3 py-1 mb-6 inline-block">
                 PACKAGING DESIGN
@@ -36,7 +36,7 @@ const PackagingBanners = () => {
             </div>
           </div>
 
-          <div className="bg-white border-2 border-charcoal-black p-8 flex flex-col justify-between">
+          <div className="bg-white border-2 border-charcoal-black p-6 md:p-8 flex flex-col justify-between">
             <div>
               <span className="text-xs font-mono font-bold tracking-widest text-electric-lime bg-charcoal-black px-3 py-1 mb-6 inline-block">
                 LARGE FORMAT & EXHIBITION
