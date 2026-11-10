@@ -3,14 +3,14 @@ import { motion } from "framer-motion";
 
 const CampaignSection = () => {
   return (
-    <section className="py-24 bg-warm-off-white text-charcoal-black relative overflow-hidden border-b border-charcoal-black/10">
+    <section className="py-16 md:py-20 bg-warm-off-white text-charcoal-black relative overflow-hidden border-b border-charcoal-black/10">
       <div className="max-w-7xl mx-auto px-6">
-        <div className="grid lg:grid-cols-2 gap-16 items-center">
+        <div className="grid lg:grid-cols-2 gap-10 lg:gap-14 items-center">
           <div>
-            <span className="text-xs font-bold tracking-[0.3em] text-charcoal-black/50 mb-4 block uppercase">
+            <span className="relative mb-4 inline-flex items-center pl-10 text-xs font-bold tracking-[0.3em] text-charcoal-black/50 uppercase after:absolute after:left-0 after:top-1/2 after:h-px after:w-6 after:-translate-y-1/2 after:bg-electric-lime">
               05 / Campaign Design
             </span>
-            <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold leading-tight tracking-tight mb-8">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-[1.05] tracking-tight mb-6">
               Make the first impression count.
             </h2>
             <p className="text-lg text-charcoal-black/70 leading-relaxed mb-8">
