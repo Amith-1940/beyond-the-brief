@@ -2,13 +2,13 @@ import { brandCampaignFormats } from "../../data/portfolioData";
 
 const CrossPlatform = () => {
   return (
-    <section className="py-24 bg-warm-off-white text-charcoal-black relative overflow-hidden border-b border-charcoal-black/10">
+    <section className="py-16 md:py-20 bg-warm-off-white text-charcoal-black relative overflow-hidden border-b border-charcoal-black/10">
       <div className="max-w-7xl mx-auto px-6">
-        <div className="text-center max-w-3xl mx-auto mb-16">
-          <span className="text-xs font-bold tracking-[0.3em] text-charcoal-black/50 mb-4 block uppercase">
+        <div className="text-center max-w-3xl mx-auto mb-10 md:mb-12">
+          <span className="relative mb-4 inline-flex items-center justify-center gap-3 text-xs font-bold tracking-[0.3em] text-charcoal-black/50 uppercase before:h-px before:w-6 before:bg-electric-lime after:h-px after:w-6 after:bg-electric-lime">
             09 / Cross-Platform Consistency
           </span>
-          <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold leading-tight tracking-tight mb-4">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-[1.05] tracking-tight mb-4">
             One creative vision. Multiple possibilities.
           </h2>
           <p className="text-lg text-charcoal-black/70">
@@ -19,11 +19,11 @@ const CrossPlatform = () => {
           </div>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5 sm:gap-6 lg:gap-8">
           {brandCampaignFormats.map((item, idx) => (
             <div
               key={idx}
-              className="bg-white border-2 border-charcoal-black p-6 flex flex-col justify-between hover:shadow-[8px_8px_0px_0px_#111111] transition-all"
+              className="bg-white border-2 border-charcoal-black p-5 sm:p-6 flex flex-col justify-between hover:shadow-[8px_8px_0px_0px_#111111] transition-all"
             >
               <div>
                 <div className="flex justify-between items-start mb-4">
