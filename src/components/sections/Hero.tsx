@@ -69,7 +69,7 @@ const Hero = () => {
 
   return (
     <section id="hero" className="relative isolate min-h-screen overflow-hidden bg-warm-off-white pt-16 text-charcoal-black">
-      <div className="mx-auto grid w-full max-w-7xl items-center gap-10 px-6 pb-12 pt-10 sm:px-8 md:gap-12 lg:min-h-[calc(100svh-4rem)] lg:grid-cols-[1.05fr_0.95fr] lg:gap-16 lg:px-12 lg:py-10">
+      <div className="mx-auto grid w-full max-w-7xl items-center gap-10 px-6 pb-12 pt-10 sm:px-8 md:min-h-[calc(100svh-4rem)] md:grid-cols-[1.05fr_0.95fr] md:gap-10 md:px-8 md:py-10 lg:gap-16 lg:px-12">
         <div className="relative z-10">
           <motion.div
             initial={shouldReduceMotion ? false : { opacity: 0, y: 12 }}
@@ -138,7 +138,7 @@ const Hero = () => {
           initial={shouldReduceMotion ? false : { opacity: 0, y: 14 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: shouldReduceMotion ? 0 : 0.75, delay: shouldReduceMotion ? 0 : 0.18, ease: "easeOut" }}
-          className="mx-auto mt-2 grid w-full max-w-[34rem] grid-cols-[minmax(0,0.92fr)_minmax(0,1.08fr)] items-center gap-4 sm:gap-6 lg:mt-0 lg:gap-8"
+          className="mx-auto mt-2 grid w-full max-w-[34rem] md:mt-0 grid-cols-[minmax(0,0.92fr)_minmax(0,1.08fr)] items-center gap-4 sm:gap-6 lg:mt-0 lg:gap-8"
         >
           <div className="relative mx-auto w-full max-w-[17rem]">
             <HeroArtwork reduceMotion={shouldReduceMotion} />
