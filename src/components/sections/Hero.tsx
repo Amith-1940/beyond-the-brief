@@ -77,7 +77,7 @@ const Hero = () => {
               <div className="absolute -inset-4 bg-electric-lime/20 rounded-sm -rotate-2" />
               <div className="relative aspect-[4/5] overflow-hidden border-2 border-charcoal-black bg-charcoal-black">
                 <img
-                  src={publicAsset("images/hero-collage.svg")}
+                  src={publicAsset("images/hero-collage.jpg")}
                   alt="Beyond the Brief creative collage"
                   className="w-full h-full object-cover"
                   loading="lazy"

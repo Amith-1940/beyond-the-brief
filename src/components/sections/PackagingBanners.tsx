@@ -28,7 +28,7 @@ const PackagingBanners = () => {
             </div>
             <div className="aspect-[4/3] border border-charcoal-black overflow-hidden relative">
               <img
-                src={publicAsset("images/sample-packaging-01.svg")}
+                src={publicAsset("images/sample-packaging-01.jpg")}
                 alt="Packaging Concept"
                 className="w-full h-full object-cover"
                 loading="lazy"
@@ -48,7 +48,7 @@ const PackagingBanners = () => {
             </div>
             <div className="aspect-[4/3] border border-charcoal-black overflow-hidden relative">
               <img
-                src={publicAsset("images/sample-banner-01.svg")}
+                src={publicAsset("images/sample-banner-01.jpg")}
                 alt="Banner Exhibition Concept"
                 className="w-full h-full object-cover"
                 loading="lazy"

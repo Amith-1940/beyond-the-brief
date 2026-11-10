@@ -28,7 +28,7 @@ const DigitalExperiences = () => {
             </div>
             <div className="aspect-[16/10] border border-warm-off-white/20 overflow-hidden relative bg-charcoal-black">
               <img
-                src={publicAsset("images/sample-website-01.svg")}
+                src={publicAsset("images/sample-website-01.jpg")}
                 alt="Website UI Interface"
                 className="w-full h-full object-cover"
                 loading="lazy"
@@ -48,7 +48,7 @@ const DigitalExperiences = () => {
             </div>
             <div className="aspect-[16/10] border border-warm-off-white/20 overflow-hidden relative bg-charcoal-black">
               <img
-                src={publicAsset("images/sample-prototype-01.svg")}
+                src={publicAsset("images/sample-prototype-01.jpg")}
                 alt="Wireframes & Prototypes"
                 className="w-full h-full object-cover"
                 loading="lazy"

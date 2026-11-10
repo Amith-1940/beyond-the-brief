@@ -31,7 +31,7 @@ const CampaignSection = () => {
           <div className="relative">
             <div className="aspect-[3/4] border-2 border-charcoal-black bg-charcoal-black overflow-hidden relative shadow-[12px_12px_0px_0px_#C7FF3D]">
               <img
-                src={publicAsset("images/sample-poster-01.svg")}
+                src={publicAsset("images/sample-poster-01.jpg")}
                 alt="Campaign Poster Sample"
                 className="w-full h-full object-cover"
                 loading="lazy"
