@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400">
+  <rect width="600" height="400" fill="#F4F1EA"/>
+  <text x="30" y="50" font-family="Inter, sans-serif" font-size="24" font-weight="700" fill="#111111">CAROUSEL SLIDE</text>
+  <rect x="30" y="90" width="540" height="300" fill="#111111" stroke="#111111" stroke-width="4"/>
+  <text x="170" y="240" font-family="Inter, sans-serif" font-size="48" font-weight="900" fill="#C7FF3D" text-anchor="middle">FASHION</text>
+  <text x="170" y="300" font-family="Inter, sans-serif" font-size="24" font-weight="300" fill="#F4F1EA" text-anchor="middle">COLLABORATION</text>
+  <text x="170" y="340" font-family="Inter, sans-serif" font-size="18" font-weight="300" fill="#D9D9D4" text-anchor="middle">SAMPLE · CONCEPT · DESIGN</text>
+  <line x1="30" y1="370" x2="570" y2="370" stroke="#111111" stroke-width="2" stroke-dasharray="8 8"/>
+  <circle cx="30" cy="385" r="3" fill="#C7FF3D"/>
+  <circle cx="570" cy="385" r="3" fill="#C7FF3D"/>
+  <text x="570" y="395" font-family="Inter, sans-serif" font-size="12" font-weight="300" fill="#111111">SLIDE · 1 / 5</text>
+</svg>

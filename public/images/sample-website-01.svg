@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400">
+  <rect width="600" height="400" fill="#F4F1EA"/>
+  <rect x="60" y="60" width="480" height="300" fill="#111111" stroke="#C7FF3D" stroke-width="3"/>
+  <rect x="100" y="100" width="400" height="220" fill="#F4F1EA" stroke="#111111" stroke-width="2"/>
+  <rect x="140" y="140" width="320" height="180" fill="#D9D9D4" stroke="#111111" stroke-width="1"/>
+  <line x1="140" y1="180" x2="460" y2="180" stroke="#111111" stroke-width="1.5"/>
+  <line x1="140" y1="220" x2="460" y2="220" stroke="#111111" stroke-width="1.5"/>
+  <line x1="140" y1="260" x2="460" y2="260" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="500" cy="350" r="8" fill="#C7FF3D"/>
+  <text x="470" y="360" font-family="Inter, sans-serif" font-size="12" font-weight="400" fill="#C7FF3D">UI DESIGN</text>
+  <text x="300" y="350" font-family="Inter, sans-serif" font-size="18" font-weight="700" fill="#111111">RESPONSIVE</text>
+  <text x="300" y="370" font-family="Inter, sans-serif" font-size="14" font-weight="400" fill="#111111">LAYOUT</text>
+  <text x="300" y="390" font-family="Inter, sans-serif" font-size="12" font-weight="300" fill="#C7FF3D">WEB APP</text>
+  <rect x="140" y="310" width="200" height="24" fill="#C7FF3D" stroke="#111111" stroke-width="1" rx="4"/>
+  <text x="240" y="327" font-family="Inter, sans-serif" font-size="14" font-weight="600" fill="#111111" text-anchor="middle">LIVE DEMO</text>
+</svg>

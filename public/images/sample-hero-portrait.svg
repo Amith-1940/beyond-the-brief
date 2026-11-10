@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 600" width="400" height="600">
+  <defs>
+    <linearGradient id="portraitGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#111111"/>
+      <stop offset="100%" style="stop-color:#C7FF3D"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="600" fill="#F4F1EA"/>
+  <ellipse cx="200" cy="150" rx="140" ry="160" fill="url(#portraitGrad)"/>
+  <circle cx="200" cy="110" r="40" fill="#C7FF3D"/>
+  <circle cx="180" cy="90" r="20" fill="#F4F1EA"/>
+  <circle cx="220" cy="90" r="20" fill="#F4F1EA"/>
+  <rect cx="190" cy="130" x="190" y="130" width="20" height="60" fill="#C7FF3D"/>
+  <rect x="100" y="400" width="200" height="2" fill="#111111"/>
+  <text x="200" y="430" font-family="Inter, sans-serif" font-size="18" font-weight="600" fill="#111111" text-anchor="middle">CREATIVE DIRECTOR</text>
+  <text x="200" y="460" font-family="Inter, sans-serif" font-size="14" font-weight="400" fill="#C7FF3D" text-anchor="middle">AESTHETIC VISION</text>
+  <rect x="150" y="490" width="100" height="30" fill="#C7FF3D" stroke="#111111" stroke-width="2" rx="4"/>
+  <text x="200" y="505" font-family="Inter, sans-serif" font-size="16" font-weight="600" fill="#111111" text-anchor="middle">ABOUT US</text>
+</svg>
